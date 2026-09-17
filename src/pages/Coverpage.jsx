@@ -12,9 +12,9 @@ function Coverpage () {
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Come in, we're friendly.</h1>
-            <p className="mb-5">
-              (mostly)
+            <h1 className="mb-5 text-8xl font-bold">Come in, we're friendly.</h1>
+            <p className="mb-9">
+              (most of the time.....often......sometimes...........ok fine, just on holidays)
             </p>
               <nav>
                 <Link to='/Home'>

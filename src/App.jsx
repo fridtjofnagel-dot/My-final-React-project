@@ -5,6 +5,7 @@ import Coverpage from './pages/Coverpage'
 import Home from './pages/Home'
 import Note from './pages/Note'
 import Pokemon from './pages/Pokemon'
+import HiddenSite from './pages/HiddenSite'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
  
 
@@ -16,17 +17,18 @@ function App() {
       <AppState>
         <Routes>        
             <Route index element={<Coverpage />}/>
-          <Route path='/Home' element={<MainLayout />}>
+            <Route path="/HiddenSite" element={<HiddenSite />} />
+          <Route path='/' element={<MainLayout />}>
             <Route path='/Home' element= {<Home />} />  
-            <Route path='/Home/Notes' element={<Note />}/>
-            <Route path='Home/pokemon' element={<Pokemon />}/>
+            <Route path='Notes' element={<Note />}/>
+            <Route path='Pokemon' element={<Pokemon />}/>
           </Route>
         </Routes>
       </AppState>
       </BrowserRouter>
     </div>
   )
-  }
+}
 
 
 export default App

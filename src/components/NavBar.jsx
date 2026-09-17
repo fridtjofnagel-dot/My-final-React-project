@@ -16,7 +16,7 @@ const NavBar = () => {
                 <li><NavLink to='/Nasa'>Nasa</NavLink></li>
             </ul>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 items-center">
             <a className="btn btn-ghost text-xl">Funny Testsite</a>
           </div>
           <div className="flex-none">
