@@ -1,20 +1,18 @@
-import PokemonCard from '../components/Pokemon/PokemonCard'
-import PokemonGrid from '../components/Pokemon/PokemonGrid'
-import PokemonInventar from '../components/Pokemon/PokemonInventar'
+// import PokemonCard from '../components/Pokemon/PokemonCard'
+// import PokemonGrid from '../components/Pokemon/PokemonGrid'
+// import PokemonInventar from '../components/Pokemon/PokemonInventar'
 
 
 
 function Pokemon () {
     return (
     <div>
-        <div>
-        <div class="tenor-gif-embed" data-postid="12095747438691176884" data-share-method="host" data-aspect-ratio="1.34595" data-width="100%">
-        <a href="https://tenor.com/view/angry-gif-12095747438691176884">Angry GIF</a>from <a href="https://tenor.com/search/angry-gifs">Angry GIFs</a>
-        </div> 
-            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <title>Pokemon Pokemon Pokemon</title>
+        <div className="flex justify-center items-center" >
+        <img className="h-100"src="https://c.tenor.com/PZi4W_-FUMUAAAAC/tenor.gif"/>
         </div>
-        <PokemonInventar />
-        <PokemonGrid />
     </div>
     )
 }
+
+export default Pokemon
