@@ -1,6 +1,6 @@
-import PokemonCard from '../components/Pokemon/PokemonCard'
-import PokemonGrid from '../components/Pokemon/PokemonGrid'
-import PokemonInventar from '../components/Pokemon/PokemonInventar'
+// import PokemonCard from '../components/Pokemon/PokemonCard'
+// import PokemonGrid from '../components/Pokemon/PokemonGrid'
+// import PokemonInventar from '../components/Pokemon/PokemonInventar'
 
 
 
@@ -18,3 +18,6 @@ function Pokemon () {
     </div>
     )
 }
+
+
+export default Pokemon

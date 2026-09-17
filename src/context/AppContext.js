@@ -1,8 +1,8 @@
 import {useState, createContext, useContext } from 'react'
 
-const AppContext = createContext() // Initiallizing the context
+export const AppContext = createContext() // Initiallizing the context
 
-function useApp () {
+export function useApp () {
     const context = useContext(AppContext); //make it useable/accesable with the useContext Hook!
 
     if (!context) {
@@ -12,6 +12,7 @@ function useApp () {
     return context; 
 
 }
+
 
 
 

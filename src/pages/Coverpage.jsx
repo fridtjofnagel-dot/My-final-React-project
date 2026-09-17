@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom'
+
 function Coverpage () {
     return(
     <div
         className="hero min-h-screen"
         style={{
           backgroundImage:
-            "url(/public/waldo.jpg)",
+            "url(/waldo.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
@@ -14,9 +16,16 @@ function Coverpage () {
             <p className="mb-5">
               (mostly)
             </p>
-            <button className="bg-amber-600 btn btn-primary rounded-3xl">This way!</button>
+              <nav>
+                <Link to='/Home'>
+                <button className="bg-amber-600 btn btn-primary rounded-3xl">This way!</button>
+                </Link>
+              </nav> 
           </div>
         </div>
     </div>
     )
 }
+
+
+export default Coverpage

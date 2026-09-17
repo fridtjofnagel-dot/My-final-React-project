@@ -1,10 +1,10 @@
-import { AppContext } from '.'
+import { AppContext } from './AppContext'
 import { useState } from 'react'
 import { getNotes } from '../storage/noteStorage'
 import { getPokemon } from '../storage/pokemonStorage'
  
 
-function AppState () {
+export function AppState ({children}) {
     const [pokemon, setPokemon] = useState([])
     const [notes, setNotes] = useState([])
 
@@ -21,7 +21,5 @@ function AppState () {
         </AppContext.Provider>
     )
 }
-
-export default AppState
 
 

@@ -38,3 +38,5 @@ function Home () {
     </a></div>
     )
 }
+
+export default Home
