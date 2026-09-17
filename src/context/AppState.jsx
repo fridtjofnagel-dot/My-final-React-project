@@ -1,8 +1,7 @@
-import { AppContext } from '.'
+import { AppContext } from './AppContext'
 import { useState } from 'react'
 import { getNotes } from '../storage/noteStorage'
 import { getPokemon } from '../storage/pokemonStorage'
- 
 
 function AppState () {
     const [pokemon, setPokemon] = useState([])
@@ -23,5 +22,3 @@ function AppState () {
 }
 
 export default AppState
-
-
