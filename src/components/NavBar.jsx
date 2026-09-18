@@ -11,7 +11,7 @@ const NavBar = () => {
             <ul className="dropdown menu w-52 rounded-box bg-base-100 shadow-sm"
               popover="auto" id="popover-1" style={{ positionAnchor: "--anchor-1" }}>
                 <li><NavLink to='/Home'>Home</NavLink></li>
-                <li><NavLink to='/Notes'>Notes</NavLink></li>
+
                 <li><NavLink to='/Pokemon'>Pokemon</NavLink></li>
                 <li><NavLink to='/Nasa'>Nasa</NavLink></li>
             </ul>
