@@ -7,6 +7,7 @@ import { getPokemon } from '../storage/pokemonStorage'
 export function AppState ({children}) {
     const [pokemon, setPokemon] = useState([])
     const [notes, setNotes] = useState([])
+    const [nasaPicDay, setNasaPicDay] = useState([])
 
     return (
         <AppContext.Provider
@@ -14,7 +15,9 @@ export function AppState ({children}) {
                 pokemon,
                 setPokemon,
                 notes,
-                setNotes
+                setNotes,
+                nasaPicDay,
+                setNasaPicDay
             }}
         >
             {children}

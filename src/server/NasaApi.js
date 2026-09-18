@@ -1,7 +1,7 @@
 export const fetchNasaPic = async (setLoading, setError, setNasaPicDay) => {
     setLoading(true)
     try {
-        const res = await fetch('https://science.nasa.gov/wp-json/wp/v2/apod-basic/?api_key=JeW7DcAHxqiWXVemPvyOoydVzON4sM7aVZCfYrjn')
+        const res = await fetch('https://api.nasa.gov/planetary/apod?api_key=JeW7DcAHxqiWXVemPvyOoydVzON4sM7aVZCfYrjn')
         if (!res.ok) throw new Error('Failed to fetch Nasa Picture of the Day!');
         
         const data = await res.json();
@@ -14,3 +14,5 @@ export const fetchNasaPic = async (setLoading, setError, setNasaPicDay) => {
 }
 
 export default fetchNasaPic
+
+

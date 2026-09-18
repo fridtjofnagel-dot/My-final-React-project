@@ -6,11 +6,9 @@ function Nasa () {
         <title>Nasa picture of the day</title>
         <div className="flex justify-center items-center" >
         <img className="h-50"src="https://upload.wikimedia.org/wikipedia/commons/2/25/Nasa-logo.gif?utm_source=de.wikipedia.org&utm_campaign=index&utm_content=original"/>
-            <p>
-                <sec>
-                    <p><NasaPic /></p>
-                </sec>
-            </p>
+            <section>
+                <NasaPic />
+            </section>
         </div>
     </div>
     )
