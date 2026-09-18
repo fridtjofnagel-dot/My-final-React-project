@@ -7,6 +7,7 @@ import Note from './pages/Note'
 import Pokemon from './pages/Pokemon'
 import HiddenSite from './pages/HiddenSite'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Nasa from './pages/Nasa'
  
 
 
@@ -22,6 +23,7 @@ function App() {
             <Route path='/Home' element= {<Home />} />  
             <Route path='Notes' element={<Note />}/>
             <Route path='Pokemon' element={<Pokemon />}/>
+            <Route path='Nasa' element={<Nasa />}/>
           </Route>
         </Routes>
       </AppState>
